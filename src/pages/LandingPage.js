@@ -580,6 +580,304 @@ const LandingPage = () => {
                     </div>
                 </div>
             </div>
+            {/*  */}
+            <div className='self-center w-full max-w-[1327px] mt-12 px-5 max-md:max-w-full max-md:mt-10'>
+                <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                    <div className="flex flex-col items-stretch w-[54%] max-md:w-full max-md:ml-0">
+                        <img
+                            loading="lazy"
+                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/4c53a5cee521b8f9272465e8fc99faed81bb4a833b21992575cd99a162770e0b?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                            className="aspect-[1.78] object-contain object-center w-full overflow-hidden my-auto max-md:max-w-full max-md:mt-10"
+                        />
+                    </div>
+
+                    <div className='flex flex-col items-stretch w-[46%] ml-5 max-md:w-full max-md:ml-0'>
+                        <div className='border bg-slate-100 flex grow flex-col w-full pl-6 pr-8 py-12 rounded-3xl border-solid border-indigo-500 max-md:max-w-full max-md:mt-10 max-md:px-5'>
+                            <div className='text-black text-center text-xl font-medium font-poppins leading-8 tracking-normal self-stretch max-md:max-w-full'>
+                                Contact Directory only provides premium quality <br />
+                                contacts from trusted sources to keep our database <br />
+                                accurate and up-to-date.
+                            </div>
+                            <span className="items-stretch self-center flex w-[480px] max-w-full gap-2 mt-14 max-md:flex-wrap max-md:mt-10">
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2653584220042e0a9ef1ffc8bd61c71cca28782c287f8f731f6de5106fc6dcd4?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-8 overflow-hidden shrink-0 max-w-full"
+                                />
+                                <div className="text-black text-xl font-medium leading-8 font-poppins tracking-normal grow shrink basis-auto max-md:max-w-full">
+                                    Average 95% Accuracy for Data Points
+                                </div>
+                            </span>
+                            <span className="items-stretch self-center flex w-[480px] max-w-full gap-2 mt-4 max-md:flex-wrap">
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2653584220042e0a9ef1ffc8bd61c71cca28782c287f8f731f6de5106fc6dcd4?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-8 overflow-hidden shrink-0 max-w-full"
+                                />
+                                <div className="text-black text-xl font-medium leading-8 font-poppins tracking-normal grow max-md:max-w-full">
+                                    Updated Every 90 days to Ensure Freshness
+                                </div>
+                            </span>
+                            <span className="items-stretch self-center flex w-[480px] max-w-full gap-2 mt-4 max-md:flex-wrap">
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2653584220042e0a9ef1ffc8bd61c71cca28782c287f8f731f6de5106fc6dcd4?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-8 overflow-hidden shrink-0 max-w-full"
+                                />
+                                <div className="text-black text-xl font-medium leading-8 font-poppins tracking-normal grow shrink basis-auto max-md:max-w-full">
+                                    Real-Time Data verification on Exports
+                                </div>
+                            </span>
+                            <span className="items-stretch self-center flex w-[480px] max-w-full gap-2 mt-4 max-md:flex-wrap">
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2653584220042e0a9ef1ffc8bd61c71cca28782c287f8f731f6de5106fc6dcd4?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-8 overflow-hidden shrink-0 max-w-full"
+                                />
+                                <div className="text-black text-xl font-medium leading-8 font-poppins tracking-normal grow shrink basis-auto max-md:max-w-full">
+                                    Data Quality guaranteed
+                                </div>
+                            </span>
+                            <span className="text-slate-50 text-sm font-semibold leading-4 font-poppins whitespace-nowrap items-stretch border-[color:var(--Primary,#0DEDA7)] bg-teal-400 self-center justify-center mt-20 mb-4 px-6 py-3.5 rounded-3xl border-[0.5px] border-solid max-md:mt-10 max-md:px-5">
+                                GET FREE TRIALS
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/*  */}
+            <div className='self-center w-full max-w-[1328px] mt-12 px-5 max-md:max-w-full max-md:mt-10'>
+                <div className='flex gap-[2rem] max-md:flex-col max-md:items-stretch max-md:gap-0'>
+                    <div className='shadow-2xl bg-white flex grow flex-col w-full pl-10 pr-12 py-12 rounded-3xl items-start max-md:mt-10 max-md:px-5'>
+                        <div className="text-indigo-500 text-11xl font-semibold whitespace-nowrap ml-6 mt-16 max-md:ml-2.5 max-md:mt-10">
+                            Data Inspired
+                        </div>
+                        <div className="justify-center text-[#9295A4] text-5xl font-medium self-stretch mt-24 mb-12 max-md:my-10">
+                            Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
+                            sagittis eu. Lectus sit sodales pulvinar egestas. Hendrerit diam
+                            mi egestas venenatis. Blandit curabitur in eu sed sit sit nullam
+                            sem.
+                        </div>
+                    </div>
+                    <div className='shadow-2xl bg-white flex grow flex-col w-full pl-10 pr-12 py-12 rounded-3xl items-start max-md:mt-10 max-md:px-5'>
+                        <div className="text-indigo-500 text-11xl font-semibold whitespace-nowrap ml-6 mt-16 max-md:ml-2.5 max-md:mt-10">
+                            Corporate social responsibility
+                        </div>
+                        <div className="justify-center text-[#9295A4] text-5xl font-medium self-stretch mt-24 mb-12 max-md:my-10">
+                            Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
+                            sagittis eu. Lectus sit sodales pulvinar egestas. Hendrerit diam
+                            mi egestas venenatis. Blandit curabitur in eu sed sit sit nullam
+                            sem.
+                        </div>
+                    </div>
+                    <div className='shadow-2xl bg-white flex grow flex-col w-full pl-10 pr-12 py-12 rounded-3xl items-start max-md:mt-10 max-md:px-5'>
+                        <div className="text-indigo-500 text-11xl font-semibold whitespace-nowrap ml-6 mt-16 max-md:ml-2.5 max-md:mt-10">
+                            Machine learning
+                        </div>
+                        <div className="justify-center text-[#9295A4] text-5xl font-medium self-stretch mt-24 mb-12 max-md:my-10">
+                            Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
+                            sagittis eu. Lectus sit sodales pulvinar egestas. Hendrerit diam
+                            mi egestas venenatis. Blandit curabitur in eu sed sit sit nullam
+                            sem.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/*  */}
+            <div className='bg-slate-100 self-center w-full max-w-[1327px] mt-24 px-14 py-11 rounded-3xl max-md:max-w-full max-md:mt-10 max-md:px-5'>
+                <div className='gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0'>
+                    <div className='flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0'>
+                        <div className='items-start gap-2 flex max-md:max-w-full max-md:flex-wrap'>
+
+                            <div className="text-violet-950 text-5xl font-poppins font-semibold grow whitespace-nowrap my-auto">
+                                Sign up to the
+                            </div>
+                            <div className="text-violet-950 text-21xl font-poppins font-semibold self-stretch grow whitespace-nowrap">
+                                <span className="font-bold text-violet-950">
+                                    Contact Directory
+                                </span>
+                            </div>
+                        </div>
+                        <div className='text-violet-950 text-5xl leading-10 font-montserrat mt-12 max-md:max-w-full max-md:mt-10'>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                            vulputate libero et velit interdum, ac aliquet odio mattis.
+                        </div>
+                        <div className="flex items-stretch gap-5 mt-12 max-md:max-w-full max-md:flex-wrap max-md:mt-10">
+                            <div className='text-slate-50 p-[15px] cursor-pointer text-base items-center justify-center font-semibold rounded-2xl border-[0.5px] border-solid border-zinc-300 bg-teal-400'>
+                                Get Started today
+                            </div>
+                            <div className='text-slate-50 p-[15px] cursor-pointer text-base items-center justify-center font-semibold rounded-2xl border-[0.5px] border-solid border-zinc-300 bg-teal-400'>
+                                Book a free Demo
+                            </div>
+                        </div>
+                    </div>
+                    <div className='flex items-stretch w-[42%] ml-[15.5rem] max-md:w-full max-md:ml-0 gap-7'>
+                        <div className='shadow-xl bg-white flex flex-col items-center w-[130px] h-[130px] mx-auto pt-8 pb-5 px-[1.5rem] rounded-3xl max-md:mt-10 max-md:px-5'>
+                            <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/7204ed983ee7a82851571368be0994c65b7f9957afdc2b1a9979fc9d5c6d4d38?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                className="aspect-square object-contain object-center w-full overflow-hidden"
+                            />
+                            <div className="text-violet-950 text-base text-center font-montserrat font-medium tracking-normal self-stretch mt-3">
+                                Personalize <br />
+                                outreach
+                            </div>
+                        </div>
+                        <div className='shadow-xl mt-[6rem] bg-white flex flex-col items-center w-[140px] h-[123px] mx-auto pt-8 pb-5 px-[1.5rem] rounded-3xl max-md:mt-10 max-md:px-5'>
+                            <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/2eba12e552d2db96f70cd67140f816e2d229f51f269d0f59dd2844f805e53c1d?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                className="aspect-[1.46] object-contain object-center w-full fill-indigo-500 stroke-[1.5px] stroke-white overflow-hidden"
+                            />
+                            <div className="text-violet-950 text-base text-center font-montserrat font-medium tracking-normal self-stretch mt-3">
+                                500 + <br />
+                                Sources
+                            </div>
+                        </div>
+                        <div className='shadow-xl mt-[12rem] bg-white flex flex-col items-center w-[140px] h-[123px] mx-auto pt-8 pb-5 px-[1.5rem] rounded-3xl max-md:mt-10 max-md:px-5'>
+                            <img
+                                loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d14489a2bbc0f1f865ea3c04fd914272231a4410f38172a3b79d646cd8aef432?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                className="aspect-[1.28] object-contain object-center w-16 overflow-hidden max-w-full"
+                            />
+                            <div className="text-violet-950 text-base text-center font-montserrat font-medium tracking-normal self-stretch mt-3">
+                                Level up <br />
+                                your Research
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/*  */}
+            <div className='bg-zinc-300 bg-opacity-0 self-center flex w-full max-w-[1304px] flex-col items-stretch mt-36 pb-9 px-5'>
+                <div className='flex w-full justify-between px-0.5 items-start max-md:max-w-full max-md:flex-wrap'>
+                    <div className='flex flex-col items-stretch w-[25%]'>
+                        <div className="text-violet-950 text-11xl font-montserrat font-semibold">
+                            Contact Directory
+                        </div>
+                        <div className="text-indigo-500 text-5xl font-montserrat mt-6">
+                            Lorem ipsum dolor sit{" "}
+                        </div>
+                        <div className="text-indigo-500 text-3xl font-medium font-montserrat leading-8 mt-9">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                            vulputate libero et velit interdum, ac aliquet odio mattis.
+                        </div>
+                    </div>
+                    <div className='flex w-[57%] gap-[5rem]'>
+
+
+                        <div className='flex flex-col items-stretch w-[33%] mt-[4px]'>
+                            <div className="text-indigo-500 text-xl font-montserrat font-semibold">
+                                CONTACT
+                            </div>
+                            <span className='items-center flex justify-between gap-4 mt-12 max-md:mt-10'>
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/51bab69b8d600fd592ddbdbd1120e51da0da0ac0241d8f1b363478e164e15b4a?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
+                                />
+                                <div className='text-3xl font-montserrat text-violet-950 font-medium self-stretch grow whitespace-nowrap'>
+                                    New York, NY 10012, US
+                                </div>
+                            </span>
+                            <span className='items-center flex justify-between gap-4 mt-5 max-md:mt-10'>
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/51cb2a652400225d9ddddeb0f368b512435b0b099acb194a3e9d601bed71b5b1?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
+                                />
+                                <div className='text-3xl font-montserrat text-violet-950 font-medium self-stretch grow whitespace-nowrap'>
+                                    info@gmail.com
+                                </div>
+                            </span>
+                            <span className='items-center flex justify-between gap-4 mt-5 max-md:mt-10'>
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2053edf0b386e12382bc7e13f23cd21dd72455041073c7457f00f9a0976183b6?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
+                                />
+                                <div className='text-3xl font-montserrat text-violet-950 font-medium self-stretch grow whitespace-nowrap'>
+                                    + 01 234 567 88
+                                </div>
+                            </span>
+                            <span className='items-center flex justify-between gap-4 mt-5 max-md:mt-10'>
+                                <img
+                                    loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/2208addd6882214e43b7dc108c5b4f4be2172925eb2b07ae0962296d029e29d9?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                                    className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full my-auto"
+                                />
+                                <div className='text-3xl font-montserrat text-violet-950 font-medium self-stretch grow whitespace-nowrap'>
+                                    + 01 234 567 89
+                                </div>
+                            </span>
+                        </div>
+                        <div className='flex flex-col items-stretch w-[33%] mt-[4px]'>
+                            <div className="text-indigo-500 text-xl font-montserrat font-semibold">
+                                PRODUCTS
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-12 self-stretch grow whitespace-nowrap">
+                                Platform
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-5 self-stretch grow whitespace-nowrap">
+                                Discover
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-5 self-stretch grow whitespace-nowrap">
+                                Resources
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-5 self-stretch grow whitespace-nowrap">
+                                Jobs
+                            </div>
+                        </div>
+                        <div className='flex flex-col items-stretch w-[33%] mt-[4px]'>
+                            <div className="text-indigo-500 text-xl font-montserrat font-semibold">
+                                USEFUL LINKS
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-12 self-stretch grow whitespace-nowrap">
+                                Your Account
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-5 self-stretch grow whitespace-nowrap">
+                                Discover
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-5 self-stretch grow whitespace-nowrap">
+                                Connections
+                            </div>
+                            <div className="text-3xl font-montserrat text-violet-950 font-medium mt-5 self-stretch grow whitespace-nowrap">
+                                Help
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/*  */}
+            <div className='self-center flex w-[389px] max-w-full items-stretch justify-between gap-5 mt-24 max-md:mt-10'>
+                <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/117f60f2-b9c6-4a23-aece-d8774ca2574f?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                    className="aspect-square object-contain object-center w-full stroke-[2px] overflow-hidden shrink-0 flex-1 rounded-[50%] h-[65px]"
+                />
+                <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0871996e-58e9-4d7e-9e2c-c3dd274109c9?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                    className="aspect-square object-contain object-center w-full stroke-[2px] overflow-hidden shrink-0 flex-1 rounded-[50%] h-[65px]"
+                />
+                <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d72420f0-7280-48c2-ba23-c16153eb52d0?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                    className="aspect-square object-contain object-center w-full stroke-[2px] overflow-hidden shrink-0 flex-1 rounded-[50%] h-[65px]"
+                />
+                <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c0028f2e-39ba-4dbc-b95d-85a38f4433e6?apiKey=df1820ca5fa3410a84397369d36734e8&"
+                    className="aspect-square object-contain object-center w-full stroke-[2px] overflow-hidden shrink-0 flex-1 rounded-[50%] h-[65px]"
+                />
+            </div>
+            {/*  */}
+            <div className="text-indigo-500 border-t border-indigo-500 text-xl font-medium self-center mt-10 max-md:max-w-full max-md:mt-10">
+                © 2022 Copyright: @BlackCoffer (OPC) Pvt. Ltd.
+            </div>
         </div>
     )
 }
